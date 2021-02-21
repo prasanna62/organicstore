@@ -18,10 +18,13 @@
   },
   "homepage": "https://github.com/rahulsingh2301/organicstore#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5"
   },
   "devDependencies": {
     "eslint": "^7.20.0",
-    "eslint-plugin-react": "^7.22.0"
+    "eslint-plugin-react": "^7.22.0",
+    "nodemon": "^2.0.7"
   }
 }
