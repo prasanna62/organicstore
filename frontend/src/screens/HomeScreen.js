@@ -27,6 +27,14 @@ export default function HomeScreen() {
   }, [dispatch]);
   return (
     <div>
+      <div className="Home">
+        <div className="Home-container">
+          <div 
+            className="Home-banner" 
+            style={{backgroundImage: "url(./images/s.jpg)"}}>
+          </div>
+        </div>
+      </div>
       <h2>Top Sellers</h2>
       {loadingSellers ? (
         <LoadingBox></LoadingBox>

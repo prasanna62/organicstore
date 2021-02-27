@@ -187,11 +187,11 @@ img.small {
   width: 100%;
 }
 img.medium {
-  max-width: 29rem;
+  max-width: 30rem;
   width: 100%;
 }
 img.large {
-  width: 100%;
+  width: 90%;
 }
 
 /* Card */
@@ -314,18 +314,23 @@ img.large {
 
 /* Search */
 .search button {
-  border-radius: 0 0.5rem 0.5rem 0;
-  border-right: none;
-  margin-right: 0.5rem;
+  width: 45px;
+  background-color: #febd69;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .search input {
   border-radius: 0.5rem 0 0 0.5rem;
   border-right: none;
   margin-left: 0.5rem;
+  width: 500px;;
 }
 .active {
   font-weight: bold;
 }
+
 
 /* Map */
 .full-container {
@@ -363,4 +368,18 @@ img.large {
 }
 .pagination a.active {
   font-weight: bold;
+}
+.Home-row {
+  display: flex;
+}
+
+.Home-content {
+  margin-top: -350px;
+}
+
+.Home-banner {
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
 }
