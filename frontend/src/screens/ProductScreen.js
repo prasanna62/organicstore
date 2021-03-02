@@ -87,9 +87,9 @@ export default function ProductScreen(props) {
               <div className="card card-body">
                 <ul>
                   <li>
-                    Seller{' '}
+                    Product{' '}
                     <h2>
-                      <Link to={`/seller/${product._id}`}>
+                      <Link to={product._id}>
                         {product.name}
                       </Link>
                     </h2>
