@@ -25,6 +25,17 @@ const data = {
   ],
   products: [
     {
+      name: 'Sponge Gourd',
+      category: 'Shirts',
+      image:'/images/Sponge Gourd.jpeg',
+      price: 51.09,
+      countInStock: 10,
+      brand: 'Nike',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'high quality product',
+    },
+    {
       name: 'Nike Slim Shirt',
       category: 'Shirts',
       image: '/images/p1.jpg',
