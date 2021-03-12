@@ -87,10 +87,10 @@ export default function ProductScreen(props) {
               <div className="card card-body">
                 <ul>
                   <li>
-                    Product{' '}
+                    Seller{' '}
                     <h2>
-                      <Link to={product._id}>
-                        {product.name}
+                      <Link to={product.seller.seller._id}>
+                        {product.seller.seller.name}
                       </Link>
                     </h2>
                     <Rating
@@ -138,12 +138,7 @@ export default function ProductScreen(props) {
                         </div>
                       </li>
                       <li>
-                        <button
-                          onClick={addToCartHandler}
-                          className="primary block"
-                        >
-                          Add to Cart
-                        </button>
+                        <button onClick={addToCartHandler} className="primary block">Add to Cart</button>
                       </li>
                     </>
                   )}
